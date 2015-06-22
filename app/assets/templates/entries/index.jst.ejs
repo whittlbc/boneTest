@@ -1,0 +1,7 @@
+<h3><%= message %></h3>
+
+<ul>
+  <% for (var i in entries.models) { %>
+    <li><%= entries.models[i].get('name') %></li>
+  <% } %>
+</ul>

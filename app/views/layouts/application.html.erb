@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Raffler</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= javascript_include_tag "/lib/bootstrap/dist/js/bootstrap.min.js" %>
+  <%= stylesheet_link_tag "/lib/bootstrap/dist/css/bootstrap.min.css" %>
+  <%= javascript_include_tag "/lib/jquery/dist/jquery.min.js" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+</html>
